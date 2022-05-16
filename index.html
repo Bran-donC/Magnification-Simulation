@@ -24,16 +24,18 @@ Last Updated: 16/5/2022
             Focal Length (cm)
             <input type="text" value="30" id="focalLength">
         </div>
+        <button type="button" onclick="main()">Apply</button>
+        <div>
+            Object vertical Height from Lens (cm)
+            <input type="range" min="-40" max="40" value="0" id="verticalHeight" oninput="main()">
+            <h4 id="verticalHeightDisplay"></h4>
+        </div>
         <h4 id="imageDist">Image Distance (cm)</h4>
+        <h4 id="ImageSize">Lens Power: N/A</h4>
 
         <h4 class="h31">Distance from Lens to Object</h4>
         <h4 class="h32">Focal Length</h4>
         <h4 class="h33">Distance from Lens to Image</h4>
-
-        <h4 id="ImageSize">Lens Power: N/A</h4>
-
-        <button type="button" onclick="main()">Apply</button>
-
         <canvas id="rayCanvas"></canvas>
     </body>
 </html>
