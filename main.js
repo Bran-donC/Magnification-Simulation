@@ -67,16 +67,16 @@ function main() {
     ctx.strokeStyle = '#0FF0FF';
     ctx.beginPath();
     ctx.moveTo(backCanvas.width/2, (backCanvas.height/2-eye.height/2));
-    ctx.lineTo(backCanvas.width/2+focalLength, (backCanvas.height/2)*grad);
+    ctx.lineTo(backCanvas.width/2+focalLength, (backCanvas.height/2)+verticalHeight);
 
     ctx.moveTo(backCanvas.width/2, (backCanvas.height/2-eye.height/4));
-    ctx.lineTo(backCanvas.width/2+focalLength, (backCanvas.height/2)*grad);
+    ctx.lineTo(backCanvas.width/2+focalLength, (backCanvas.height/2)+verticalHeight);
 
     ctx.moveTo(backCanvas.width/2, (backCanvas.height/2+eye.height/2));
-    ctx.lineTo(backCanvas.width/2+focalLength, (backCanvas.height/2)*grad);
+    ctx.lineTo(backCanvas.width/2+focalLength, (backCanvas.height/2)+verticalHeight);
 
     ctx.moveTo(backCanvas.width/2, (backCanvas.height/2+eye.height/4));
-    ctx.lineTo(backCanvas.width/2+focalLength, (backCanvas.height/2)*grad);
+    ctx.lineTo(backCanvas.width/2+focalLength, (backCanvas.height/2)+verticalHeight);
     ctx.stroke();
 
     //Paint where new image is
