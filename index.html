@@ -1,0 +1,39 @@
+<!--
+Made by Brandon :)
+Created: 16/5/2022
+Last Updated: 16/5/2022
+
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Magnification Simulation</title>
+        <link href=style.css rel=stylesheet>
+        <script src=main.js async></script>
+        <meta name=viewport content="width=device-width,initial-scale=1.0">
+    </head>
+
+    <body>
+   <!---->
+        <h1>Magnification Simulation</h1>
+        <div>
+            Object Distance from Lens (cm)
+            <input type="text" value="40" id="objectDist">
+        </div>
+        <div>
+            Focal Length (cm)
+            <input type="text" value="30" id="focalLength">
+        </div>
+        <h4 id="imageDist">Image Distance (cm)</h4>
+
+        <h4 class="h31">Distance from Lens to Object</h4>
+        <h4 class="h32">Focal Length</h4>
+        <h4 class="h33">Distance from Lens to Image</h4>
+
+        <h4 id="ImageSize">Lens Power: N/A</h4>
+
+        <button type="button" onclick="main()">Apply</button>
+
+        <canvas id="rayCanvas"></canvas>
+    </body>
+</html>

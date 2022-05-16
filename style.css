@@ -1,0 +1,33 @@
+html{
+    background-color:#1e272e;
+    color: whitesmoke;
+}
+
+.lengthInput{
+    width: 3rem;
+}
+
+canvas{
+    width: 99vw;
+}
+
+.Labels{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 0;
+    align-items: center;
+    text-align: center;
+}
+
+.h31{
+    color:#FF0000;
+}
+
+.h32{
+    color:#0FF0FF;
+}
+
+.h33{
+    color:#FFFF00;
+}
