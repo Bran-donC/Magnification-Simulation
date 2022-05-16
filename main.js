@@ -95,5 +95,5 @@ function main() {
 }
 
 window.onload = function() {
-    fireRay();
+    main();
 }
