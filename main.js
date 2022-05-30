@@ -22,7 +22,7 @@ function main() {
     document.getElementById('imageDist').innerHTML = "Image Distance (cm) "+Math.round(imageDist*100000)/100000;
 
     //Print focus
-    document.getElementById('ImageSize').innerHTML = "Lens Power: "+Math.round(-(imageDist/objectDist)*100000)/100000;
+    document.getElementById('ImageSize').innerHTML = "Lens Power: "+1/(Math.round(-(imageDist/objectDist)*100000)/100000);
 
     //Print verticalHeight
     document.getElementById('verticalHeightDisplay').innerHTML = verticalHeight
