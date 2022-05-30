@@ -18,13 +18,12 @@ Last Updated: 17/5/2022
         <h1>Magnification Simulation</h1>
         <div>
             Object Distance from Lens (cm)
-            <input type="text" value="40" id="objectDist">
+            <input type="text" value="40" id="objectDist" oninput="main()">
         </div>
         <div>
             Focal Length (cm)
-            <input type="text" value="30" id="focalLength">
+            <input type="text" value="30" id="focalLength" oninput="main()">
         </div>
-        <button type="button" onclick="main()">Apply</button>
         <div>
             Object vertical Height from Lens (cm)
             <input type="range" min="-40" max="40" value="0" id="verticalHeight" oninput="main()">
